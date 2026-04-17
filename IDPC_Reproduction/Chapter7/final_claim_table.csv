@@ -1,0 +1,6 @@
+claim,evidence
+Best exceeds neural-only on switch_gain,"best_true_search cols=['h', 'dh', 'deps'], mode=pca; best switch_gain=0.809793, neural-only=0.676953; paired sign-test p=0.046143"
+Best compared with quantum-only on switch_gain,"best_true_search cols=['h', 'dh', 'deps'], mode=pca; best switch_gain=0.809793, quantum-only=0.718208; paired sign-test p=0.046143"
+Best exceeds simple mean on switch_gain,"best_true_search cols=['h', 'dh', 'deps'], mode=pca; best switch_gain=0.809793, simple-mean=0.709743; paired sign-test p=0.046143"
+Best exceeds block-permuted null on switch_gain,"best_true_search cols=['h', 'dh', 'deps'], mode=pca; obs switch_gain=0.809793, null mean=0.564516, empirical p=0.004975"
+Best degrades under temporal misalignment,"best_true_search cols=['h', 'dh', 'deps'], mode=pca; shift0=0.809793, shift20=0.576159"
