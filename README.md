@@ -16,14 +16,23 @@ https://hub.bids.mybinder.org/user/satoru-siel-idpc_reproduction-tsaa9hjd/doc/wo
 
 ## Repository Structure
 
+## Repository Structure
+
+## Repository Structure
+
+```
 IDPC_Reproduction/
+
 ├── IDPC_Repro_Demo.ipynb        # Binder demo
+
 ├── IDPC_Reproduction.ipynb      # Full reproduction notebook
+
 ├── requirements.txt             # Dependencies
+
 ├── IDPC_Reproduction/           # CSV files (demo)
+
 ├── IDPC_Reproduction_ricci/     # CSV files (demo)
-
-
+```
 ## Full Reproduction
 
 Raw EEG dataset:
