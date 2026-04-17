@@ -12,7 +12,7 @@ This repository provides the full pipeline required to reproduce the experiments
 
 Run the Binder demo:
 
-https://hub.bids.mybinder.org/user/satoru-siel-idpc_reproduction-tsaa9hjd/doc/workspaces/auto-l/tree/IDPC_Repro_Demo.ipynb
+https://bids.mybinder.org/v2/gh/SATORU-SIEL/IDPC_Reproduction/HEAD?urlpath=%2Fdoc%2Ftree%2FIDPC_Repro_Demo.ipynb
 
 ## Repository Structure
 ```
