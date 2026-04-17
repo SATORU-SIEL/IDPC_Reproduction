@@ -1,0 +1,183 @@
+{
+  "per_pattern": {
+    "correct": {
+      "root": "backups/mm_original_state",
+      "observed_switch_gain": 0.809793,
+      "null_mean_from_claim": 0.564516,
+      "empirical_p": 0.004975,
+      "best_cols": "'h', 'dh', 'deps'",
+      "best_mode": "pca",
+      "baseline_neural_only": 0.676953,
+      "baseline_neural_only_p": 0.046143,
+      "baseline_quantum_only": 0.718208,
+      "baseline_quantum_only_p": 0.046143,
+      "baseline_simple_mean_p": 0.046143,
+      "null_mean": 0.5645164502039637,
+      "null_sd": 0.030269899544383364,
+      "null_min": 0.4767863116688194,
+      "null_max": 0.6536334339962758,
+      "null_n": 200,
+      "shift0": 0.8097934151354712,
+      "shift20": 0.5761594707817292,
+      "per_session_best_mean": 0.8097934151354712,
+      "per_session_best_median": 0.8048867585851023,
+      "per_session_best_min": 0.6764071121209927,
+      "per_session_best_max": 0.9824136442257024,
+      "n_test_sessions": 13,
+      "note": "original pipeline (correct pairing)"
+    },
+    "derangement": {
+      "root": "backups/mm_fullnb_derangement",
+      "observed_switch_gain": 0.792787,
+      "null_mean_from_claim": 0.767543,
+      "empirical_p": 0.104478,
+      "best_cols": "'dh', 'da', 'deps', 'dpsi'",
+      "best_mode": "pca",
+      "baseline_neural_only": 0.671292,
+      "baseline_neural_only_p": 0.01123,
+      "baseline_quantum_only": 0.689321,
+      "baseline_quantum_only_p": 0.133423,
+      "baseline_simple_mean_p": 0.290527,
+      "null_mean": 0.7675432502428117,
+      "null_sd": 0.01982593873603991,
+      "null_min": 0.7101738086145428,
+      "null_max": 0.8205966046532794,
+      "null_n": 200,
+      "shift0": 0.792787234500244,
+      "shift20": 0.7641162052313312,
+      "per_session_best_mean": 0.7927872345002439,
+      "per_session_best_median": 0.8130098905069502,
+      "per_session_best_min": 0.5293844135449299,
+      "per_session_best_max": 0.996690477564276,
+      "n_test_sessions": 13
+    },
+    "shift1": {
+      "root": "backups/mm_fullnb_shift1",
+      "observed_switch_gain": 0.79977,
+      "null_mean_from_claim": 0.79977,
+      "empirical_p": 1.0,
+      "best_cols": "'dh', 'da'",
+      "best_mode": "pca",
+      "baseline_neural_only": 0.732972,
+      "baseline_neural_only_p": 0.709473,
+      "baseline_quantum_only": 0.740485,
+      "baseline_quantum_only_p": 0.133423,
+      "baseline_simple_mean_p": 0.709473,
+      "null_mean": 0.7997697677732313,
+      "null_sd": 0.0,
+      "null_min": 0.7997697677732313,
+      "null_max": 0.7997697677732313,
+      "null_n": 200,
+      "shift0": 0.7997697677732313,
+      "shift20": 0.7997697677732313,
+      "per_session_best_mean": 0.799769767773231,
+      "per_session_best_median": 0.8410386195300962,
+      "per_session_best_min": 0.4846066281489831,
+      "per_session_best_max": 1.0882877088001035,
+      "n_test_sessions": 13
+    },
+    "reverse": {
+      "root": "backups/mm_fullnb_reverse",
+      "observed_switch_gain": 0.792463,
+      "null_mean_from_claim": 0.716905,
+      "empirical_p": 0.054726,
+      "best_cols": "'dh', 'deps'",
+      "best_mode": "pca",
+      "baseline_neural_only": 0.688508,
+      "baseline_neural_only_p": 0.290527,
+      "baseline_quantum_only": 0.651561,
+      "baseline_quantum_only_p": 0.046143,
+      "baseline_simple_mean_p": 0.01123,
+      "null_mean": 0.7169050192197468,
+      "null_sd": 0.05418490229314436,
+      "null_min": 0.3463289075386259,
+      "null_max": 0.845918449702405,
+      "null_n": 200,
+      "shift0": 0.7924631536422004,
+      "shift20": 0.7105875233470422,
+      "per_session_best_mean": 0.7924631536422004,
+      "per_session_best_median": 0.7791243120497444,
+      "per_session_best_min": 0.5939411572794786,
+      "per_session_best_max": 1.0416470447332622,
+      "n_test_sessions": 13
+    },
+    "random": {
+      "root": "backups/mm_fullnb_random",
+      "observed_switch_gain": 0.771086,
+      "null_mean_from_claim": 0.722041,
+      "empirical_p": 0.144279,
+      "best_cols": "'dh', 'deps'",
+      "best_mode": "pca",
+      "baseline_neural_only": 0.718029,
+      "baseline_neural_only_p": 0.290527,
+      "baseline_quantum_only": 0.683382,
+      "baseline_quantum_only_p": 0.01123,
+      "baseline_simple_mean_p": 0.046143,
+      "null_mean": 0.7220409685569547,
+      "null_sd": 0.04936045329679846,
+      "null_min": 0.5645150498461889,
+      "null_max": 0.8833432387636042,
+      "null_n": 200,
+      "shift0": 0.7710857312111972,
+      "shift20": 0.7194560543788519,
+      "per_session_best_mean": 0.7710857312111972,
+      "per_session_best_median": 0.779222209592782,
+      "per_session_best_min": 0.4556063980386562,
+      "per_session_best_max": 0.9432608721545096,
+      "n_test_sessions": 13
+    }
+  },
+  "comparison": {
+    "correct": {
+      "gap_observed_minus_null": 0.2452765497960363,
+      "empirical_p": 0.004975
+    },
+    "derangement": {
+      "delta_vs_correct_obs": -0.017005999999999966,
+      "gap_observed_minus_null": 0.02524374975718835,
+      "null_shift_up_vs_correct": 0.203026800038848,
+      "empirical_p": 0.104478,
+      "empirical_p_correct": 0.004975
+    },
+    "shift1": {
+      "delta_vs_correct_obs": -0.010023000000000004,
+      "gap_observed_minus_null": 2.3222676870382486e-07,
+      "null_shift_up_vs_correct": 0.2352533175692676,
+      "empirical_p": 1.0,
+      "empirical_p_correct": 0.004975
+    },
+    "reverse": {
+      "delta_vs_correct_obs": -0.017329999999999957,
+      "gap_observed_minus_null": 0.07555798078025322,
+      "null_shift_up_vs_correct": 0.15238856901578313,
+      "empirical_p": 0.054726,
+      "empirical_p_correct": 0.004975
+    },
+    "random": {
+      "delta_vs_correct_obs": -0.038706999999999936,
+      "gap_observed_minus_null": 0.049045031443045395,
+      "null_shift_up_vs_correct": 0.15752451835299097,
+      "empirical_p": 0.144279,
+      "empirical_p_correct": 0.004975
+    }
+  },
+  "collapse_ranking": [
+    [
+      "shift1",
+      1.0
+    ],
+    [
+      "random",
+      0.144279
+    ],
+    [
+      "derangement",
+      0.104478
+    ],
+    [
+      "reverse",
+      0.054726
+    ]
+  ],
+  "method": "Full-notebook execution of IDPC_Reproduction.ipynb with SECTION 1.1-1.3 + SECTION 1.4 (real) cells converted to cell_type='raw', and SECTION 1.4 ALTERNATIVE (fake pairing) modified per pattern. All downstream cells (SECTION 1.5 onwards, Chapter 2-7) run unchanged."
+}
