@@ -36,6 +36,14 @@ DOI: https://doi.org/10.5281/zenodo.19628769
 - AUC ≈ 0.79, Accuracy ≈ 0.70: 状態分類性能
 - mean abs Pearson ≈ 0.42: セッション間再構成一致度
 
+## 言語ルール（重要）
+- ターミナルへの出力・確認用レポート: **日本語**
+- GitHubにコミット・公開するレポート: **英語**
+- 具体的には以下の2ファイルを常に生成すること:
+  - `reports/[name]_report_ja.md` — 日本語版（ローカル確認用、コミット不要）
+  - `reports/[name]_report_en.md` — 英語版（GitHubにコミット）
+- コミットメッセージは常に英語
+
 ## レポート出力ルール
 - Markdown形式で出力
 - 論文のセクション構造に従う（Abstract, Results, Discussion）
