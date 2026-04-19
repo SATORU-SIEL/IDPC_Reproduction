@@ -22,7 +22,7 @@ IDPC_Reproduction/
 
 ├── IDPC_Reproduction.ipynb      # Full reproduction notebook
 
-├── Quantum mesurement.ipynb     # Quantum mesurement notebook
+├── Quantum Measurement.ipynb    # Quantum measurement notebook
 
 ├── requirements.txt             # Dependencies
 
